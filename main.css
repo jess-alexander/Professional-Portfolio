@@ -1,0 +1,216 @@
+/*======================= BASE STYLES =======================*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#about #skills #contact{
+    height:600px;
+}
+
+.tooltip {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 3px;
+	color: #1f2e2e;
+	background-color: #c2d6d6;
+	position: absolute;
+	z-index: 2;
+  
+}
+
+/*======================= GRID =======================*/
+.full-width{
+    margin: 0 auto;
+    overflow:hidden;
+    width:1200px; /* add vh to bring color to full screen rather than full-width.... also opens pandora's box */
+}
+
+.half-width{ /*is it better to use width:50%;?????????*/
+    width:600px;
+    float:left;
+}
+
+.third-width{  /*is it better to use width:33.33%;?????????*/
+    width:400px;
+    float:left;
+    text-align: center;
+}
+
+/*======================= HEADER SECTION =======================*/
+header {
+    background-image: url('../img/full-background.png'); /*NOTE THE DIFFERENT URL, MUST START WITH .. TO FIND THE CORRECT FOLDER*/
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {  /* TEXT = JESSICA ALEXANDER*/
+    color:#bbc085;
+    font-family:'Lora', serif;
+    font-size:30px;
+    padding: 50px 10;
+}
+
+
+nav {   /* TEXT = WORK ABOUT CONTACT**/
+    float: right; 
+    padding: 75px 40px;
+}
+
+
+nav ul li{ /***** CHECK UNDERSTANDING OF horizontal navigation*/
+    display: inline-block;
+}
+
+
+nav ul li a {
+    color: #898989;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 80px; 
+}
+
+
+header h2 { /* TEXT = [HI,] I'M A DEVELOPER....*/
+    clear: top;
+    color: #9a9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80pt;
+    padding: 0px 30px;
+    width: 950px;
+}
+
+
+header h2 span { /* TEXT = HIGHLIGHT [HI]*/
+    color: #262a2b;
+}
+
+
+/*======================= ABOUT SECTION =======================*/
+#about .full-width {
+    padding: 80px 50px;
+}
+
+
+#about h2{ /* TEXT = A LITTLE BIT ABOUT ME*/
+    font-family: 'Lora', serif;
+    font-size:36px;
+    padding: 0 25px 0 10px;
+}
+
+
+#about p{  /* TEXT = HALF-WIDTH PARAGRAPHS*/
+    color:#7f7f7f;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 25px 0 10px;
+}
+
+
+/*======================= SKILLS SECTION =======================*/
+#skills .full-width {
+    background-color: #f9ceb7;
+    padding: 80px 50px; /* SECTIONS SHOULD HAVE NO WHITE SPACE BETWEEN*/
+}
+
+
+#skills img {
+    padding-bottom: 30px;
+    height:80px;
+}
+
+
+#skills h3 { /* TEXT = HTML, CSS, PHOTOSHOP*/
+    font-size: 24px;
+    font-weight:700;
+    margin: 0 auto;
+    width: 200px;
+    height:100px;
+}
+ 
+
+#skills p {  /* TEXT = SKILLS DEFINITION*/
+    color:#7f7f7f;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 35px;
+    height:200px;
+}
+
+
+/*======================= CONTACT SECTION =======================*/
+
+
+#contact .full-width {
+    background-color: #ebebeb;
+    padding: 110px 50px;
+}
+
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left:25px;
+    /* 
+    CHANGED FROM THE FOLLOWING TO BE MORE CLEAN
+    
+    border-style: solid;
+    border-width: 12px;
+    border-color: white;*/
+}
+
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+
+#contact #envelope { /* TEXT=  ICON BEFORE EMAIL LINK*/
+    padding: 0 10px 0 115px;
+}
+
+
+#contact h2 { /* TEXT=  LIKE WHAT YOU SEE?*/
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+
+#contact #email-header{ /* TEXT=  LET'S MEET FOR COFFEE (TO BE EDITED)*/
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+
+
+#contact #socialmedia-header { /* TEXT=  OR FIND ME ON THE INTERWEBS*/
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0px 0;
+}
+
+
+#contact a {  /* TEXT=  EMAIL LINK*/
+    color: #c49075;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+#contact ul { /* TEXT=  HORIZONTAL LIST OF SOCIAL MEDIA ICONS*/
+    list-style: none;
+}
+
+
+#contact ul li {
+     display: inline-block;
+}
+
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 80px;
+}
+
+
