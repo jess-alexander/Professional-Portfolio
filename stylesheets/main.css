@@ -37,7 +37,7 @@ body{
 
 /*======================= HEADER SECTION =======================*/
 header {
-    background-image: url('img/full-background.png'); /*NOTE THE DIFFERENT URL, MUST START WITH .. TO FIND THE CORRECT FOLDER*/
+    background-image: url("./img/full-background.png"); /*NOTE THE DIFFERENT URL, MUST START WITH .. TO FIND THE CORRECT FOLDER*/
     background-size: cover;
     height: 800px;
 }
